@@ -24,3 +24,52 @@ header {
   width: 30px;
 }
 
+.secondp {
+  height: 100vh;
+  background-color: beige;
+  padding-top: 20px;
+}
+
+.form1 {
+  display: flex;
+  gap: 20px;
+  padding-right: auto;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.form1 > input {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  width: 200px;
+  height: 35px;
+  flex-shrink: 0;
+  background-color: white;
+  color: black;
+  font-size: medium;
+  padding: 10px;
+  
+}
+
+.sub {
+  width: 477px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+}
+
+.form {
+  text-align: center;
+}
+
+.meme-img {
+  width: 400px;
+}
+
+.meme1 {
+  display: grid;
+  place-items: center;
+  padding-top: 10px;
+}
+
